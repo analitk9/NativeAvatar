@@ -13,8 +13,6 @@ class ViewController: UIViewController {
         let scrollView = UIScrollView(frame: .zero)
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         scrollView.contentSize.height = view.frame.height * 2
-        scrollView.contentInsetAdjustmentBehavior = .never
-        scrollView.insetsLayoutMarginsFromSafeArea = false
         return scrollView
     }()
     
@@ -39,7 +37,7 @@ class ViewController: UIViewController {
         view.backgroundColor = .white
         navigationItem.title = "Avatar"
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationItem.largeTitleDisplayMode = .always
+       navigationItem.largeTitleDisplayMode = .automatic
     }
     
    private func setupConstraint() {
