@@ -53,8 +53,8 @@ class ViewController: UIViewController {
         
         imageAvatar.trailingAnchor.constraint(equalTo: largeTitleView.trailingAnchor, constant: -10).isActive = true
         imageAvatar.bottomAnchor.constraint(equalTo: largeTitleView.bottomAnchor, constant: -10).isActive = true
-        imageAvatar.heightAnchor.constraint(equalToConstant: 40).isActive = true
-        imageAvatar.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        imageAvatar.heightAnchor.constraint(equalToConstant: 36).isActive = true
+        imageAvatar.widthAnchor.constraint(equalToConstant: 36).isActive = true
     }
 
 }
